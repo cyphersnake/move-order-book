@@ -1,10 +1,10 @@
-# Take Home test - Orderbook on Sui
+# Take Home Test - Order Book on Sui
 
 ## Goal
 
 Create an onchain order book for swapping tokens on Sui.
 
-Minimal functionality: A user should be able to submit a bid order, which is matched with existing ask orders in the orderbook for one pair of tokens.
+Minimal functionality: A user should be able to submit a bid order, which is matched with existing ask orders in the order book for one pair of tokens.
 
 ## Setup
 
