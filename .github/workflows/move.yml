@@ -1,0 +1,16 @@
+name: Move
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: cyphersnake/move-sui-build
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: sui move test
+
